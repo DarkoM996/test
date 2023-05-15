@@ -1,3 +1,21 @@
 body {
     background-color: #f4f4f4;
 }
+/* From 0 - 768px */
+@media screen and (max-width: 768px) { 
+    body {
+        background-color: aqua;
+    }
+}
+/*  Limit height */
+@media screen and (max-height: 500px) {
+    body {
+        background-color: blue;
+    }
+}
+/*  Width and height */
+@media screen and (max-width: 500px) and (max-height: 400px) {
+    body {
+        background-color: green;
+    }
+}
