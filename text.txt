@@ -1,0 +1,13 @@
+// go to develop branch 
+git checkout develop 
+// pull latest changes 
+git pull 
+// create new branch 
+git checkout -b name-of-branch develop 
+// Publish branch to GitHub 
+git push origin -u name-of-branch develop 
+
+// Open powershell 
+cd desktop/projects/test 
+
+new changes

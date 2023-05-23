@@ -9,4 +9,16 @@ document.getElementById('doubleClick').addEventListener('click', () => {
     document.getElementById('dbloutput').style.backgroundColor='green'
 })
 
+document.getElementById('onhover').addEventListener('mouseenter', () => {
+    console.log('mouseenter');
+    document.getElementById('mouseenter').style.backgroundColor='grey'
+})
+
+
+
+
+
+
+
+
 
