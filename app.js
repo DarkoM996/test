@@ -14,6 +14,10 @@ document.getElementById('onhover').addEventListener('mouseenter', () => {
     document.getElementById('mouseenter').style.backgroundColor='grey'
 })
 
+document.getElementById('clickaButton').addEventListener('click', () => {
+    console.log('click')
+    document.getElementById('clickanOutput').style.backgroundColor='red'
+})
 
 
 
