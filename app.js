@@ -37,6 +37,16 @@ card.addEventListener("dblclick", (e) => {
   card.classList.toggle("large");
 });
 
+//Attempt to recreate this
+
+const form = document.querySelector("form");
+
+
+addEventListener("dblclick", (e) => {
+    form.classList.toggle("large2");
+});
+
+//After I made this, when i click on the first one..both activate
 
 
 
