@@ -19,8 +19,23 @@ document.getElementById('clickaButton').addEventListener('click', () => {
     document.getElementById('clickanOutput').style.backgroundColor='red'
 })
 
+document.getElementById('buttonOne').addEventListener('mouseenter', () => {
+    console.log('dbclick');
+    document.getElementById('outputOne').style.backgroundColor='orange';
+})
 
+document.getElementById('buttonOne').addEventListener('mouseleave', () => {
+    console.log('mouseleave');
+    document.getElementById('outputTwo').style.backgroundColor='purple';
+})
 
+//This example was found from Mozila's Javascript Documentation
+
+const card = document.querySelector("aside");
+
+card.addEventListener("dblclick", (e) => {
+  card.classList.toggle("large");
+});
 
 
 
