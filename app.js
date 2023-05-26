@@ -48,6 +48,17 @@ addEventListener("dblclick", (e) => {
 
 //After I made this, when i click on the first one..both activate
 
+document.getElementById("focusButton").addEventListener("click", () => {
+    document.getElementById("myTextField").focus();
+  });
+
+document.getElementById("focusThisButton").addEventListener("click", () => {
+    document.getElementById("myownTextField").focus();
+});
+
+//This example worked on my own when I removed the second bracket instead of click which is weird
+
+
 
 
 
